@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 project(oop_mai_labs)
 
-include(Cmake/CompileOptions.cmake)
+include(cmake/RequersOptions.cmake)
 
 include(FetchContent)
 FetchContent_Declare(
