@@ -13,7 +13,7 @@ TEST(Lab1, CheckMaxNumber) {
 }
 
 TEST(Lab1, Simple) {
-  std::string result = Solution(1, 3);
+  std::size_t result = Solution(1, 3);
   ASSERT_EQ(result, 4u);
 }
 
